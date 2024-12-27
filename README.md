@@ -37,7 +37,7 @@ Before anything else, we will need to remote connect to our virtual machine usin
 
 ## Roles
 
-![image](https://github.com/user-attachments/assets/64f4410f-5e67-41f7-9f20-14b9571e8f71)
+![image](https://github.com/user-attachments/assets/f5f3be66-a07b-4ed7-b0ba-9d163aad09b1)
 
 
 ## Departments
