@@ -33,7 +33,25 @@ This tutorial outlines the post-install configuration of the open-source help de
 In the previous repository, how to set up a Windows web server to function as an osTicket system was covered. In this repository, we'll move on to specifying certain perameters within the newly established ticketing system.
 
 ## Preperation 
-Before anything else, we will need to remote connect to our virtual machine using its public IP address. After connecting, we should load two particular webpages: http://localhost/osTicket/scp/login.php and http://localhost/osTicket. If you remember, at the end of completing the prerequisites, we were left with a sort of congratulatory webpage from osTicket. At the bottom of this page, there were four linked webpages, the two of which are the ones just listed in the prior sentence. Both are extrememly relevant as the former is the login page for agents and admin of the ticketing system, while the latter is the page wherein users can generate their tickets and check their status. Having all that said, lets move on to actually configuring some aspects of the osTicket system we have.
+Before anything else, we will need to remote connect to our virtual machine using its public IP address. After connecting, we should load two particular webpages: http://localhost/osTicket/scp/login.php and http://localhost/osTicket. If you remember, at the end of completing the prerequisites, we were left with a sort of congratulatory webpage from osTicket. At the bottom of this page, there were four linked webpages, the two of which are the ones just listed in the prior sentence. Both are extrememly relevant as the former is the login page for agents and admin of the ticketing system, while the latter is the page wherein users can generate their tickets and check their status. Having all that said, let's move on to actually configuring some aspects of the osTicket system that we now have.
+
+## Roles
+
+![image](https://github.com/user-attachments/assets/64f4410f-5e67-41f7-9f20-14b9571e8f71)
+
+
+## Departments
+
+![image](https://github.com/user-attachments/assets/8bb835c2-deb9-4dbd-a73a-25057ed6e665)
+
+
+## Teams
+
+![image](https://github.com/user-attachments/assets/34b7f01b-7196-4f01-ab1e-e651fe1ca012)
+
+
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
