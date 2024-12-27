@@ -39,34 +39,55 @@ Before anything else, we will need to remote connect to our virtual machine usin
 
 ![image](https://github.com/user-attachments/assets/f5f3be66-a07b-4ed7-b0ba-9d163aad09b1)
 
+![image](https://github.com/user-attachments/assets/2e4806d4-9ef1-4d98-a940-821d3ab66bf7)
+
+
 
 ## Departments
 
-![image](https://github.com/user-attachments/assets/8bb835c2-deb9-4dbd-a73a-25057ed6e665)
+![image](https://github.com/user-attachments/assets/7572b222-548e-49ef-b2e4-6983716eda5a)
+
 
 
 ## Teams
 
-![image](https://github.com/user-attachments/assets/ee7c9058-a16f-4d13-8ce2-ff125166243f)
+![image](https://github.com/user-attachments/assets/a5e49b7c-bc3d-4206-b385-1520221b9715)
+
+![image](https://github.com/user-attachments/assets/8ee64878-8c3d-4ef9-9d58-584c3f74e967)
+
+
 
 
 ## Agents
 
-![image](https://github.com/user-attachments/assets/a5a0d130-ed4c-4b73-a404-c4abb9557bfe)
+![image](https://github.com/user-attachments/assets/c5a5707b-931f-4b93-b616-5a5aeb907210)
+
+![image](https://github.com/user-attachments/assets/0bc29213-4310-4c85-969e-e8ca9d4bf9b0)
+
+
 
 
 ## Users 
 
-![image](https://github.com/user-attachments/assets/cd53fc59-410d-4566-b389-b9c0532f34d4)
+![image](https://github.com/user-attachments/assets/07f0cf04-ac85-4785-b26d-b96fea77e08c)
+
+![image](https://github.com/user-attachments/assets/295170d9-2f40-4355-bc9f-f3c0730b4457)
+
+
 
 
 ## Service Level Agreements
 
-![image](https://github.com/user-attachments/assets/e40087cc-bc95-4faa-a9f3-4168d4a1506b)
+![image](https://github.com/user-attachments/assets/4c0e8804-f952-4d9f-9d0f-3be939470930)
+
 
 
 ## Help Topics
 
-![image](https://github.com/user-attachments/assets/f68ed8a7-32d7-4a2b-801a-8ba34b07a8ac)
+![image](https://github.com/user-attachments/assets/5584a89e-f710-4c90-b5e7-5aeb2b1f60bf)
+
+![image](https://github.com/user-attachments/assets/83f31b4c-c33b-42f6-a29c-24a5020e931e)
+
+
 
 
