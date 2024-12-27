@@ -89,7 +89,7 @@ To create their accounts, we'll return back to the "Agents" tab and should immed
 5. Select "Set"
 
 
-Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department while giving her a Supreme Admin role, as well as adding her to the Online Banking team underneatht the "Teams" section". As for John Smith, we'll assign him to the Support department, give him a View Only role. We won't assign him to any specific team. 
+Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department while giving her a Supreme Admin role, as well as adding her to the Online Banking team underneatht the "Teams" section". As for John Smith, we'll assign him to the Support department and give him a View Only role. We won't assign him to any specific team. 
 
 ![image](https://github.com/user-attachments/assets/c5a5707b-931f-4b93-b616-5a5aeb907210)
 
@@ -100,14 +100,32 @@ Let's now assign the agents to their proper departments and give them their prop
 
 ## Users 
 
+Here is where we'll set up "user" or "customer" accounts. When one wants to create a ticket from the perspective of one actually afflicted by a technical issue, they will log into the End Users page (http://localhost/osTicket) with their user account. 
+
+**Note: for this step, we will need to switch into the "Agent Panel"**
+
 ![image](https://github.com/user-attachments/assets/07f0cf04-ac85-4785-b26d-b96fea77e08c)
 
+After switching panels, go to "Users" and then "Add New". 
+
 ![image](https://github.com/user-attachments/assets/295170d9-2f40-4355-bc9f-f3c0730b4457)
+
+Here you would add the real names and email addresses associated with their credentialed accounts within the organization. For our case, we'll create two example users, one "Karen Park" and "Ken Jones". The email addresses don't have to be actual addresses, but for the sake of this system, let's make them noticably related to the names we've given these users. Make sure to note them down as well!
 
 
 
 
 ## Service Level Agreements
+
+A Service Level Agreement (SLA) in this context refers to generally how severe a certain ticket is and more specifically, how rapidly a ticket needs to be resolved. In SLAs, parameters such as the "grace period" and "schedule" can assist the agents in prioritizing tickets to deal with the more pressing issues first, and then making their way to less stringent matters.
+
+To design our SLAs, we'll need to switch back to the Admin Panel. After switching, if not already, go to the "Manage" tab. Next click on the "SLA" subtab then "Add New SLA Plan". Above was mentioned the "grace period" which is how long (in our case, in hours) it takes for a ticket from the time that it is created to become marked as "overdue". Typically the more severe the ticket, the smaller the grace period will be so as to encourage its quick resolution. Schedule was also mentioned, which covers how the hours of the grace period are counted (for example, a 24/5 counting period which would exclude counting hours of the weekend, or a 24/7 schedule which would count those hours). 
+
+Create three SLAs, named "Sev-A", "Sev-B", and "Sev-C", "Sev" standing for "Severity" here. Set their grace periods and schedules as such:
+
+Sev-A: 1 hour, 24/7
+Sev-B: 4 hours, 24/7
+Sev-C: 8 hours, Business Hours (i.e. Mon-Fri 8am-5pm)
 
 ![image](https://github.com/user-attachments/assets/4c0e8804-f952-4d9f-9d0f-3be939470930)
 
