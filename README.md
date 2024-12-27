@@ -37,6 +37,11 @@ Before anything else, we will need to remote connect to our virtual machine usin
 
 ## Roles
 
+The first step in this configuration process will be to establish roles. Roles serve a huge function in the ticketing system since they have the ability to give varying levels of permission within the system to different agents without having to specialize each agent's permissions individually.
+
+We'll start by navigating to the admin/analyst login page that was presented on the congratulatory webpage we saw at the end of the installation phase (http://localhost/osTicket/scp/login.php). Then using our admin credentials, we will log in. Here, a crucial aspect needs to be observed. In the top right corner, there should be a small section containing the words "Admin Panel". This essentially points out the fact that, currently, though you are logged in with your admin credentials, you are viewing osTicket as an agent (there are two views/panels: Admin Panel and Agent Panel; if you are within one, the option seen in the corner will be the other). To make the changes that we want to make, we need to switch to admin mode by clicking "Admin Panel". 
+
+
 ![image](https://github.com/user-attachments/assets/f5f3be66-a07b-4ed7-b0ba-9d163aad09b1)
 
 ![image](https://github.com/user-attachments/assets/2e4806d4-9ef1-4d98-a940-821d3ab66bf7)
