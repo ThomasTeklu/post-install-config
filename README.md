@@ -41,8 +41,12 @@ The first step in this configuration process will be to establish roles. Roles s
 
 We'll start by navigating to the admin/analyst login page that was presented on the congratulatory webpage we saw at the end of the installation phase (http://localhost/osTicket/scp/login.php). Then using our admin credentials, we will log in. Here, a crucial aspect needs to be observed. In the top right corner, there should be a small section containing the words "Admin Panel". This essentially points out the fact that, currently, though you are logged in with your admin credentials, you are viewing osTicket as an agent (there are two views/panels: Admin Panel and Agent Panel; if you are within one, the option seen in the corner will be the other). To make the changes that we want to make, we need to switch to admin mode by clicking "Admin Panel". 
 
+Now, we will locate to the "Agents" tab within the darker grey banner at the top of the page. You should see a few already established as they were established automatically with the creation of the osTicket itself. Click on "Roles", "Add New Role", and create a "Supreme Admin" role. 
+
 
 ![image](https://github.com/user-attachments/assets/f5f3be66-a07b-4ed7-b0ba-9d163aad09b1)
+
+Within the "Permissions" tab, enable all capabilities within each subtab (Tickets, Tasks, and Knowledgebase). 
 
 ![image](https://github.com/user-attachments/assets/2e4806d4-9ef1-4d98-a940-821d3ab66bf7)
 
@@ -50,20 +54,33 @@ We'll start by navigating to the admin/analyst login page that was presented on 
 
 ## Departments
 
+Now we will create departments to organize agents according to their more day-to-day focuses within the "organization". We'll stay within the "Agents" tab and move to the "Departments" subtab. Here again, there should already be a "Maintenance" and "Support" department there. We're going to add a "SysAdmins" department by clicking on "Add New Department", and labeling it such. For now, we can leave the rest of the settings as they are.
+
 ![image](https://github.com/user-attachments/assets/7572b222-548e-49ef-b2e4-6983716eda5a)
 
 
 
 ## Teams
 
+Teams are meant to gather up agents from different departments who might work on specific projects together or aspects within the organization that require input from multiple departments. To create teams, we'll move to the "Teams" subtab and then "Add New Team". We'll go ahead and name this one "Online Banking". Within the "Members" section, you can see the selection mechanism of which agents get assigned to which team. Again, we will leave this as empty for now.
+
 ![image](https://github.com/user-attachments/assets/a5e49b7c-bc3d-4206-b385-1520221b9715)
 
 ![image](https://github.com/user-attachments/assets/8ee64878-8c3d-4ef9-9d58-584c3f74e967)
 
 
+# Quick Note
+
+Before moving forward, we should take a chance to enable ticket creation privileges to anyone. Now we'll switch tabs to "Settings" and within the "Users" subtab, we will confirm that the box next to "Require registration and login to create tickets" is unchecked.
+
+Back to configuration!
 
 
 ## Agents
+
+The actual members of the organization that will be able to login to this ticket system and be assigned varying permissions, roles, and departments are the agents. In short, they're the employees behind the scenes.
+
+To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: Jane Doe and John Smith. Email addresses and contact numbers are irrelevant for our exercise so we'll leave those empty. Give each a username
 
 ![image](https://github.com/user-attachments/assets/c5a5707b-931f-4b93-b616-5a5aeb907210)
 
