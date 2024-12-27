@@ -47,10 +47,27 @@ Before anything else, we will need to remote connect to our virtual machine usin
 
 ## Teams
 
-![image](https://github.com/user-attachments/assets/34b7f01b-7196-4f01-ab1e-e651fe1ca012)
+![image](https://github.com/user-attachments/assets/ee7c9058-a16f-4d13-8ce2-ff125166243f)
 
 
+## Agents
 
+![image](https://github.com/user-attachments/assets/a5a0d130-ed4c-4b73-a404-c4abb9557bfe)
+
+
+## Users 
+
+![image](https://github.com/user-attachments/assets/cd53fc59-410d-4566-b389-b9c0532f34d4)
+
+
+## Service Level Agreements
+
+![image](https://github.com/user-attachments/assets/e40087cc-bc95-4faa-a9f3-4168d4a1506b)
+
+
+## Help Topics
+
+![image](https://github.com/user-attachments/assets/f68ed8a7-32d7-4a2b-801a-8ba34b07a8ac)
 
 
 <p>
