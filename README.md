@@ -80,7 +80,16 @@ Back to configuration!
 
 The actual members of the organization that will be able to login to this ticket system and be assigned varying permissions, roles, and departments are the agents. In short, they're the employees behind the scenes.
 
-To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: Jane Doe and John Smith. Email addresses and contact numbers are irrelevant for our exercise so we'll leave those empty. Give each a username
+To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: Jane Doe and John Smith. Email addresses and contact numbers are irrelevant for our exercise so we'll leave those empty. Giving each a username is as simple as typing it in to their repective "Username" fields. For passwords however, it's a little less intuitive, so here are the steps:
+
+1. Click on "Set Password"
+2. Deselect the "Send the agent a password reset email" option
+3. Enter the password that you would like to set for the account
+4. Deselect the "Require password change at next login" option
+5. Select "Set"
+
+
+Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department while giving her a Supreme Admin role, as well as adding her to the Online Banking team underneatht the "Teams" section". As for John Smith, we'll assign him to the Support department, give him a View Only role. We won't assign him to any specific team. 
 
 ![image](https://github.com/user-attachments/assets/c5a5707b-931f-4b93-b616-5a5aeb907210)
 
