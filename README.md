@@ -133,10 +133,24 @@ Create three SLAs, named "Sev-A", "Sev-B", and "Sev-C", "Sev" standing for "Seve
 
 ## Help Topics
 
+Finally, we are arriving at our final step for this section. Here we will configure the Help Topics. When users submit tickets, they will be asked to categorize their issue by selecting a "help topic", which is essentially a broad theme that a given problem could fit into without specifying all the details of the issue. This feature assists agents in prioritizing and resolving tickets in the most efficient way possible.
+
+NOTE: Many times, since users are not technically trained/aware, they will file their tickets under less-than-accurate help topics. It is up to the helpdesk staff to make the appropriate transfers between help topics as they see fit.
+
+We'll set up five additional help topics in addition to the four already present from initial setup. From within the Agent Panel, locate to the "Manage" tab, then open the "Help Topics" subtab. From here, we'll use the "Add New Help Topic" option to get started with our new Help Topics. We'll go ahead and leave the settings within the "New ticket options" section as they are right now, and just focus on giving the Name and Parent Topic of each Help Topic. Parent Topics are those Help Topics that already existed which can be used as primary groupings, while the ones we are making now will be "branches" of these groups. 
+
+Here is the list of new Help Topics that we'll make along with the Parent Topics that should be given to each:
+
+- Business Critical Outage/Report a Problem
+- Personal Computer Issues/Report a Problem
+- Equipment Request/General Inquiry
+- Password Reset/Report a Problem
+- Other/General Inquiry
+
 ![image](https://github.com/user-attachments/assets/5584a89e-f710-4c90-b5e7-5aeb2b1f60bf)
 
 ![image](https://github.com/user-attachments/assets/83f31b4c-c33b-42f6-a29c-24a5020e931e)
 
 
-
+With that, you've finished the post-installation configuration of your ticket apparatus! You are now ready to have tickets submitted to and resolved by your osTicket system. This is exactly what we'll be running through in the next and final step of this set of repositories. See you there!
 
