@@ -123,9 +123,9 @@ To design our SLAs, we'll need to switch back to the Admin Panel. After switchin
 
 Create three SLAs, named "Sev-A", "Sev-B", and "Sev-C", "Sev" standing for "Severity" here. Set their grace periods and schedules as such:
 
-Sev-A: 1 hour, 24/7
-Sev-B: 4 hours, 24/7
-Sev-C: 8 hours, Business Hours (i.e. Mon-Fri 8am-5pm)
+- Sev-A: 1 hour, 24/7
+- Sev-B: 4 hours, 24/7
+- Sev-C: 8 hours, Business Hours (i.e. Mon-Fri 8am-5pm)
 
 ![image](https://github.com/user-attachments/assets/4c0e8804-f952-4d9f-9d0f-3be939470930)
 
