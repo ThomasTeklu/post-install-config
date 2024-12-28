@@ -137,7 +137,7 @@ Finally, we are arriving at our final step for this section. Here we will config
 
 NOTE: Many times, since users are not technically trained/aware, they will file their tickets under less-than-accurate help topics. It is up to the helpdesk staff to make the appropriate transfers between help topics as they see fit.
 
-We'll set up five additional help topics in addition to the four already present from initial setup. From within the Agent Panel, locate to the "Manage" tab, then open the "Help Topics" subtab. From here, we'll use the "Add New Help Topic" option to get started with our new Help Topics. We'll go ahead and leave the settings within the "New ticket options" section as they are right now, and just focus on giving the Name and Parent Topic of each Help Topic. Parent Topics are those Help Topics that already existed which can be used as primary groupings, while the ones we are making now will be "branches" of these groups. 
+We'll set up five additional help topics in addition to the four already present from initial setup. From within the Admin Panel, locate to the "Manage" tab, then open the "Help Topics" subtab. From here, we'll use the "Add New Help Topic" option to get started with our new Help Topics. We'll go ahead and leave the settings within the "New ticket options" section as they are right now, and just focus on giving the Name and Parent Topic of each Help Topic. Parent Topics are those Help Topics that already existed which can be used as primary groupings, while the ones we are making now will be "branches" of these groups. 
 
 Here is the list of new Help Topics that we'll make along with the Parent Topics that should be given to each:
 
