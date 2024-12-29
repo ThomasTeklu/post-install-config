@@ -89,7 +89,7 @@ To create their accounts, we'll return back to the "Agents" tab and should immed
 5. Select "Set"
 
 
-Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department while giving her a Supreme Admin role, as well as adding her to the Online Banking team underneatht the "Teams" section". As for John Smith, we'll assign him to the Support department and give him a View Only role. We won't assign him to any specific team. 
+Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department while giving her a Supreme Admin role, as well as adding her to the Online Banking team underneath the "Teams" section". As for John Smith, we'll assign him to the Support department and give him an "Expanded Access" role. We won't assign him to any specific team. 
 
 ![image](https://github.com/user-attachments/assets/c5a5707b-931f-4b93-b616-5a5aeb907210)
 
