@@ -24,16 +24,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Determine SLAs
 - Modifying Help Topics
 
-
-
-- Configure Roles
-- Configure Departments
-- Configure Teams
-- Configure Agents
-- Configure Users
-- Configure SLA
-- Configure Help Topics
-
 <h2>Review</h2>
 
 In the previous repository, how to set up a Windows web server to function as an osTicket system was covered. In this repository, we'll move on to specifying certain perameters within the newly established ticketing system.
