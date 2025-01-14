@@ -168,7 +168,7 @@ Here is the list of new Help Topics that we'll make along with the Parent Topics
 
 # Conclusion
 
-With that, you've finished the post-installation configuration of your ticket apparatus! You are now ready to have tickets submitted to and resolved by your osTicket system. This is exactly what we'll be running through in the next and final step of this set of repositories. 
+With that, you've finished the post-installation configuration of your ticket apparatus! You are now ready to have tickets submitted to and resolved by your osTicket system. This is exactly what we'll be running through in the [next and final steps](https://github.com/ThomasTeklu/ticket-lifecycle) of this set of repositories. 
 
 See you there!
 
