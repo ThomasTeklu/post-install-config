@@ -166,7 +166,7 @@ Here is the list of new Help Topics that we'll make along with the Parent Topics
 
 ![image](https://github.com/user-attachments/assets/d75edfba-5a92-44df-9eab-06d7fa2a4080)
 
-### Conclusion
+# Conclusion
 
 With that, you've finished the post-installation configuration of your ticket apparatus! You are now ready to have tickets submitted to and resolved by your osTicket system. This is exactly what we'll be running through in the next and final step of this set of repositories. 
 
