@@ -5,9 +5,6 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Computing/Networks & IP Addresses)
@@ -29,7 +26,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 In the previous repository, how to set up a Windows web server to function as an osTicket system was covered. In this repository, we'll move on to specifying certain perameters within the newly established ticketing system.
 
 ## Preperation 
-Before anything else, we will need to remote connect to our virtual machine using its public IP address. After connecting, we should load two particular webpages: http://localhost/osTicket/scp/login.php and http://localhost/osTicket. If you remember, at the end of completing the prerequisites, we were left with a sort of congratulatory webpage from osTicket. At the bottom of this page, there were four linked webpages, two of which are the ones just listed in the prior sentence. Both are extrememly relevant as the former is the login page for agents and admin of the ticketing system, while the latter is the page wherein users can generate their tickets and check their status. Having all that said, let's move on to actually configuring some aspects of the osTicket system that we now have.
+Before anything else, we will need to remote connect to our virtual machine using its public IP address. After connecting, we should load two particular webpages: http://localhost/osTicket/scp/login.php and http://localhost/osTicket. If you remember, at the end of completing the prerequisites, we were left with a congratulatory webpage from osTicket. 
+
+At the bottom of this page, there were four linked webpages, two of which are the ones just listed above. Both are extrememly relevant as the former is the login page for agents and admin of the ticketing system, while the latter is the page wherein users can generate their tickets and check their status. 
+
+Having all that said, let's move on to actually configuring some aspects of the osTicket system that we now have.
 
 # Configuring Interactive Entities
 
@@ -37,11 +38,17 @@ Before anything else, we will need to remote connect to our virtual machine usin
 
 The first step in this configuration process will be to establish roles. Roles serve a huge function in the ticketing system since they have the ability to give varying levels of permission within the system to different agents without having to specialize each agent's permissions individually.
 
-We'll start by navigating to the admin/analyst login page that was presented on the congratulatory webpage we saw at the end of the installation phase (http://localhost/osTicket/scp/login.php). Then using our Helpdesk Admin credentials, we'll log in. Here, a crucial aspect needs to be observed. In the top right corner, there should be a small section containing the words "Admin Panel". This essentially points out the fact that, currently, though you are logged in with your admin credentials, you are viewing osTicket as an agent (there are two views/panels: Admin Panel and Agent Panel; if you are within one, the option seen in the corner will be the other). To make the changes that we want to make, we need to switch to admin mode by clicking "Admin Panel". 
+We'll start by navigating to the admin/analyst login page that was shown on the congratulatory webpage (http://localhost/osTicket/scp/login.php). Then using our Helpdesk Admin credentials, we'll log in. 
 
-Now, we will locate to the "Agents" tab within the darker grey banner at the top of the page. You should see a your admin account already registered as it was established automatically with the configuration of the osTicket environment itself. Click on "Roles", "Add New Role", and create a "Supreme Admin" role: 
+Here, a crucial aspect needs to be observed. In the top right corner, there should be a small section containing the words "Admin Panel". This essentially points out the fact that, currently, though you are logged in with your admin credentials, you are viewing osTicket as an **agent**. 
 
-![image](https://github.com/user-attachments/assets/89de6a2b-7771-4e07-8d69-fc17bf65a8ce)
+There are two views/panels: Admin Panel and Agent Panel; if you are within one, the **other** option will be seen in the corner. To make the changes that we want to make, we need to switch to admin mode by clicking "Admin Panel":
+
+![image](https://github.com/user-attachments/assets/f6f1d1f0-cb5b-49b0-8480-d0fd2f9f4f05)
+
+Now, we will locate to the "Agents" tab within the darker grey banner at the top of the page. You should see your admin account already registered as it was established automatically with the configuration of the osTicket environment. Click on "Roles" -> "Add New Role" -> "Supreme Admin" role: 
+
+![image](https://github.com/user-attachments/assets/f99bce5b-a97c-459c-b373-609a35b46864)
 
 Within the "Permissions" tab, enable all capabilities within each subtab (Tickets, Tasks, and Knowledgebase):
 
@@ -62,7 +69,9 @@ Select "Create Dept" to complete creation of the "SysAdmins" department.
 
 ### Teams
 
-Teams are meant to gather up agents from different departments who might work on specific projects together or aspects within the organization that require input from multiple departments. To create teams, we'll move to the "Teams" subtab and then "Add New Team". We'll go ahead and name this one "Online Banking". Within the "Members" section, you can see the selection mechanism of which agents get assigned to which team. Again, we will leave this as empty for now:
+Teams are meant to gather up agents from different departments who might work on specific projects together or aspects within the organization that require input from multiple departments. To create teams, we'll move to the "Teams" subtab and then "Add New Team". 
+
+We'll go ahead and name this one "Online Banking". Within the "Members" section, you can see the selection mechanism of which agents get assigned to which team. Again, we will leave this as empty for now:
 
 ![image](https://github.com/user-attachments/assets/c41c1672-766f-4daf-895e-a64f11bfda8c)
 
@@ -81,7 +90,7 @@ Back to configuration!
 
 The actual members of the organization that will be able to login to this ticket system and be assigned varying permissions, roles, and departments are the agents. In short, they're the employees behind the scenes which actually work on the issues filed in the tickets.
 
-To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: **Jane Doe** and **John Smith**. Email addresses and contact numbers are irrelevant for our exercise, however since an email address input is required to create the agent, feel free to make up an address and enter it in the field so as to move on (you can get away with a blank contact number field). Giving each a username is as simple as typing it in to their repective "Username" fields. For passwords however, it's a little less intuitive, so here are the steps:
+To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: **Jane Doe** and **John Smith**. Since an email address input is required to create the agent, feel free to make one up so as to move on (you can get away with a blank contact number field). Giving each a username is as simple as typing it in to their repective "Username" fields. For passwords however, it's a little less intuitive, so here are the steps:
 
 1. Click on "Set Password"
 2. Deselect the "Send the agent a password reset email" option
