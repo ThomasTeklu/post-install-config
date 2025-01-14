@@ -90,7 +90,9 @@ Back to configuration!
 
 The actual members of the organization that will be able to login to this ticket system and be assigned varying permissions, roles, and departments are the agents. In short, they're the employees behind the scenes which actually work on the issues filed in the tickets.
 
-To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: **Jane Doe** and **John Smith**. Since an email address input is required to create the agent, feel free to make one up so as to move on (you can get away with a blank contact number field). Giving each a username is as simple as typing it in to their repective "Username" fields. For passwords however, it's a little less intuitive, so here are the steps:
+To create their accounts, we'll return back to the "Agents" tab and should immediately be within the "Agents" subtab. Let's go ahead and create two agents: **Jane Doe** and **John Smith**. 
+
+Since an email address input is required to create the agent, feel free to make one up so as to move on (you can get away with a blank contact number field). Giving each a username is as simple as typing it in to their repective "Username" fields. For passwords however, it's a little less intuitive, so here are the steps:
 
 1. Click on "Set Password"
 2. Deselect the "Send the agent a password reset email" option
@@ -100,25 +102,27 @@ To create their accounts, we'll return back to the "Agents" tab and should immed
 
 ![image](https://github.com/user-attachments/assets/18f1b86d-557b-445c-b62c-4cbc774ed58f)
 
-Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department while giving her a Supreme Admin role, as well as adding her to the Online Banking team underneath the "Teams" section". As for John Smith, we'll assign him to the Support department and give him an "Expanded Access" role. We won't assign him to any specific team. 
+Let's now assign the agents to their proper departments and give them their proper roles. Go to the "Access" section for each after setting their passwords. We'll assign Jane Doe to the SysAdmins department, make her a Supreme Admin, and a part of the Online Banking team underneath the "Teams" section". 
+
+As for John Smith, we'll assign him to the Support department and give him an "Expanded Access" role. We won't assign him to any specific team: 
 
 ![image](https://github.com/user-attachments/assets/be8b525a-a050-496b-ba4a-4f7b4949750f)
 
 ![image](https://github.com/user-attachments/assets/6f4d20ef-63bf-4b25-8370-f7eb427bff0d)
 
-After selecting the the settings for each account, click "Create" at the bottom to finalize each.
+After selecting the settings for each account, click "Create" at the bottom to finalize each.
 
 ### Users 
 
 Here is where we'll set up "user" or "customer" accounts. When somebody wants to create a ticket from the perspective of one actually afflicted by a technical issue, they will log into the End Users page (http://localhost/osTicket) with their user account. 
 
-**Note: for this step, we will need to switch into the "Agent Panel"**
+**Note: for this step, we will need to switch into the "Agent Panel"**:
 
 ![image](https://github.com/user-attachments/assets/07f0cf04-ac85-4785-b26d-b96fea77e08c)
 
-After switching panels, go to "Users" and then "Add New". 
+After switching panels, go to "Users" and then "Add New": 
 
-![image](https://github.com/user-attachments/assets/295170d9-2f40-4355-bc9f-f3c0730b4457)
+![image](https://github.com/user-attachments/assets/7d7bd6c3-243c-42c4-a648-81124a08d8a8)
 
 Here you would add the real names and email addresses associated with their credentialed accounts within the organization. For our case, we'll create two example users, one **Karen Park** and **Ken Jones**: 
 
@@ -128,11 +132,9 @@ The email addresses don't have to be actual addresses, but for the sake of this 
 
 ### Service Level Agreements
 
-A Service Level Agreement (SLA) in this context refers to the categorizations that are comprized of various ticket factors which help prioritize the tickets received in the system. These parameters such as the "grace period" can assist the agents in choosing the order in which to deal with the present issues.
+A Service Level Agreement (SLA) is a enshrining of the required conditions that a service provider must meet with regards to dealing with their client so as not to be considered as "violating" the agreement between the two. In our context, it refers to the guaranteed manner in which the helpdesk will treat each issue/ticket.
 
-To design our SLAs, we'll need to switch back to the Admin Panel. After switching, if not already, go to the "Manage" tab. Next click on the "SLA" subtab then "Add New SLA Plan". 
-
-Above was mentioned the "grace period" which is how long (in our case, in hours) it takes for a ticket from the time that it is created to become marked as "overdue". Typically the more severe the ticket, the smaller the grace period will be so as to encourage its quick resolution. Schedule was also mentioned, which covers how the hours of the grace period are counted (for example, a 24/5 counting period which would exclude counting hours of the weekend, or a 24/7 schedule which would count those hours). 
+Tickets are submitted by users and analyzed in order to determine their priority. Based on the urgency, they will then be assigned to a certain SLA which will lay out how the submitter of the ticket can expect the resolution process to go. To design our SLAs, we'll need to switch back to the Admin Panel. After switching, if not already, go to the "Manage" tab. Next click on the "SLA" subtab then "Add New SLA Plan". 
 
 Create three SLAs, named "Sev-A", "Sev-B", and "Sev-C", "Sev" standing for "Severity" here. Set their grace periods and schedules as such:
 
@@ -142,14 +144,17 @@ Create three SLAs, named "Sev-A", "Sev-B", and "Sev-C", "Sev" standing for "Seve
 
 ![image](https://github.com/user-attachments/assets/feefcd17-a330-4985-a794-e0e35e29dc18)
 
+Above was mentioned the "grace period" which is how long (in our case, in hours) it takes for a ticket from the time that it is created to become marked as "overdue". Typically the more severe the ticket, the shorter the grace period will be so as to encourage its quick resolution. Schedule was also mentioned, which covers how the hours of the grace period are counted (for example, a 24/5 counting period which would exclude counting hours of the weekend, or a 24/7 schedule which would count those hours). 
 
 ### Help Topics
 
-Finally, we are arriving at our final step for this section. Here we will configure the Help Topics. When users submit tickets, they will be asked to categorize their issue by selecting a "Help Topic", which is essentially a broad theme that a given problem could fit into without specifying all the details of the issue. This feature assists agents in prioritizing and resolving tickets in the most efficient way possible.
+Finally, we are arriving at our final step for this section. Here we will configure the Help Topics. When users submit tickets, they will be asked to categorize their issue by selecting a "Help Topic", which is a broad theme that a ticket could fit into. This feature assists agents in prioritizing and resolving tickets efficiently.
 
-NOTE: Many times, since users are not technically trained/aware, they will file their tickets under less-than-accurate help topics. It is up to the helpdesk staff to make the appropriate transfers between help topics as they see fit.
+**NOTE**: Many times, since users are not technically trained/aware, they will file their tickets under misleading help topics. It's up to the helpdesk staff to make the appropriate transfers between help topics as they see fit.
 
-We'll set up five help topics in addition to the four already present from initial setup. From within the Admin Panel, locate to the "Manage" tab, then open the "Help Topics" subtab. From here, we'll use the "Add New Help Topic" option to get started with our new Help Topics. We'll go ahead and leave the settings within the "New ticket options" section as they are right now, and just focus on giving the Name and Parent Topic of each Help Topic. Parent Topics are those Help Topics that already existed which can be used as primary groupings, while the ones we are making now will be "branches" of these groups. 
+We'll set up five Help Topics in addition to the four already present from initial setup. From within the Admin Panel, locate to the "Manage" tab, then open the "Help Topics" subtab. From here, we'll use the "Add New Help Topic" option to get started. 
+
+Go ahead and leave the settings within the "New ticket options" section as they are right now, and just focus on giving the Name and Parent Topic of each Help Topic. Parent Topics are those Help Topics that already existed which can be used as primary groupings, while the ones we are making now will be "branches" of these groups. 
 
 Here is the list of new Help Topics that we'll make along with the Parent Topics that should be given to each:
 
@@ -161,7 +166,9 @@ Here is the list of new Help Topics that we'll make along with the Parent Topics
 
 ![image](https://github.com/user-attachments/assets/d75edfba-5a92-44df-9eab-06d7fa2a4080)
 
+### Conclusion
 
+With that, you've finished the post-installation configuration of your ticket apparatus! You are now ready to have tickets submitted to and resolved by your osTicket system. This is exactly what we'll be running through in the next and final step of this set of repositories. 
 
-With that, you've finished the post-installation configuration of your ticket apparatus! You are now ready to have tickets submitted to and resolved by your osTicket system. This is exactly what we'll be running through in the next and final step of this set of repositories. See you there!
+See you there!
 
